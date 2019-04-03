@@ -1,6 +1,6 @@
 <?php
 $username  = 'root';
-$password  = '3266root';
+$password  = '123456';
 try {
   $dbconn = new PDO('mysql:host=localhost;dbname=onlinestore', $username, $password);
    $dbconn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
